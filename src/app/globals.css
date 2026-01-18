@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+  /* Vibrant, bright, energetic background */
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #db2777 100%);
+  background-size: 200% 200%;
+  animation: gradientBG 15s ease infinite;
+  color: #1f2937;
+  min-height: 100vh;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
